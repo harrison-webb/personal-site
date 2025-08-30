@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harrison Glenn Webb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Harrison Glenn Webb</h1>
+    <div class="links">
+      <a href="https://github.com/harrison-webb" target="_blank">GitHub</a>
+      <a href="https://linkedin.com//in/webb-harrison" target="_blank"
+        >LinkedIn</a
+      >
+      <a href="/assets/HarrisonWebbResume2025Q3.pdf" target="_blank">Resume</a>
+      <span id="email-link"></span>
+    </div>
+
+    <p>
+      I'm Harrison. I'm a programmer/sysadmin, logistics person, and creator. I
+      currently manage shipping and logistics at a SLC based supplement startup.
+      I'm working towards my Bachelor of Science in Computer Science at the
+      University of Utah (Dec 2026), and am studying for the AWS Solutions
+      Architect Associate cloud certification (Sept 2025).
+    </p>
+
+    <p>
+      I enjoy
+      <span class="hover-container">
+        <a href="assets/climbing.jpg" target="_blank"> climbing</a>
+        <span class="hover-thumb">
+          <img
+            src="assets/climbing.jpg"
+            alt="Rock climbing Tribal Boundaries in City of Rocks, ID"
+          />
+        </span> </span
+      >, lifting, going for walks,
+
+      <span class="hover-container">
+        <a href="assets/event1.png" target="_blank">hosting</a>
+        <span class="hover-thumb">
+          <img src="assets/event1.png" alt="Sunglasses party group picture" />
+        </span>
+      </span>
+
+      <span class="hover-container">
+        <a href="assets/event2.png" target="_blank"> events</a>
+        <span class="hover-thumb">
+          <img src="assets/event2.png" alt="European party group picture" />
+        </span>
+      </span>
+      with my friends+neighbors, hanging out with my cat
+      <span class="hover-container">
+        <a href="assets/bean.png" target="_blank"> Mr. Bean</a>
+        <span class="hover-thumb">
+          <img src="assets/bean.png" alt="Picture of my cat Mr. Bean" />
+        </span> </span
+      >, and writing (working on
+      <a href="https://harrisonwebb.substack.com" target="_blank">publishing</a>
+      more).
+    </p>
+  </body>
+</html>
+
+<script>
+  const user = "hello";
+  const domain = "harrisonglennwebb.com";
+  const email = `${user}@${domain}`;
+  const link = document.createElement("a");
+  link.href = `mailto:${email}`;
+  link.textContent = "Email me";
+  link.target = "_blank";
+  link.className = "email-link";
+  document.getElementById("email-link").appendChild(link);
+</script>
