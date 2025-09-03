@@ -1,4 +1,4 @@
-This is my personal website. Check it out at <harrisonglennwebb.com>. The "architecture" and development process I followed are loosely based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)
+This is my personal website. Check it out at https://harrisonglennwebb.com. The "architecture" and development process I followed are loosely based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)
 
 # "Roadmap"
 
