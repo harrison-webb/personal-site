@@ -7,10 +7,11 @@ This is my personal website. Check it out at https://harrisonglennwebb.com. The 
 - [x] Point site to custom domain using Cloudflare
 - [x] Custom email with Cloudflare
 - [x] Cloudflare worker to redirect www to @
+- [x] Set up dev site configuration (S3 bucket, alternate CloudFront distribution)
 - [ ] favicon
 - [ ] CI/CD
   - [x] Github Actions for deploy to S3 on push
-  - [ ] Github Actions for invalidate CloudFront cache on push
+  - [x] Github Actions for invalidate CloudFront cache on push
   - [ ] Github Actions for running backend tests
 - [ ] "Leave me a song"
   - [ ] piano javascript
