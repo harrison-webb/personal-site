@@ -5,8 +5,9 @@ on:
     branches:
       - dev
     paths:
-      - "index.html"
-      - "styles.css"
+      - "**/*.html"
+      - "**/*.css"
+      - "**/*.js"
       - "assets/**"
 
 jobs:
